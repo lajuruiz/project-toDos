@@ -1,0 +1,9 @@
+CREATE TABLE Todos (
+    id INT AUTO_INCREMENT NOT NULL,
+    name VARCHAR(50) NOT NULL,
+    description VARCHAR(255),
+    due_date TIMESTAMP,
+    creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+   PRIMARY KEY (id)
+);

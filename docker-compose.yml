@@ -1,0 +1,18 @@
+version: '1'
+services:
+  mysqldb:
+    image: mysql
+    environment:
+      - MYSQL_USER=devco
+      - MYSQL_PASSWORD=devco
+      - MYSQL_ROOT_PASSWORD=devco
+      - MYSQL_DATABASE=project_devco
+    expose:
+      - "3306"
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./database:/var/lib/mysql_2
+
+volumes:
+  logvolume01: {}
