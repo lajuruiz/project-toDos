@@ -39,6 +39,8 @@ jobs:
         path: ~/.m2
         key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
         restore-keys: ${{ runner.os }}-m2
+    - name: up mysql container runs
+      run: docker-compose up -d
     - name: Build and analyze
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
