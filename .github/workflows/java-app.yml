@@ -41,7 +41,7 @@ jobs:
         restore-keys: ${{ runner.os }}-m2
     - name: Build the Docker image
       run: docker-compose build
-    - name: up mysql container runs
+    - name: Up mysql container runs
       run: docker-compose up -d
     - name: Build and analyze
       env:
