@@ -27,9 +27,6 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
-    - name: Test with Junit 
-      run: mvn test
-
     - name: SonarCloud Scan
       uses: SonarSource/sonarcloud-github-action@v1.8
     - name: Build and analyze
