@@ -1,7 +1,7 @@
 # project-toDos
 
 Proyecto final semillero Devco 
-
+Desarrollo de una API de todos utilizando lo siguiente: 
 
 * Lenguaje utilizado: JAVA 
 * Framework: Spring boot 
