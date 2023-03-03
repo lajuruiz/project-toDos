@@ -11,6 +11,7 @@ Proyecto final semillero Devco.
 Otras herramientas 
 * Docker 
 * SonarCloud 
+* Swagger 
 * Github Actions
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=lajuruiz_project-todos&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=lajuruiz_project-todos)
